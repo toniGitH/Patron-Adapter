@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Core;
+
 /**
  * Modelo de dominio de la Aplicación. 
  * Representa cómo nuestra aplicación entiende los productos.

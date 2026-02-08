@@ -1,7 +1,9 @@
 <?php
 
-require_once 'ProductListProvider.php';
-require_once 'ExternalServiceA.php';
+namespace App\Adapters;
+
+use App\Core\ProductListProvider;
+use ExternalA\ExternalServiceA;
 
 /**
  * Adaptador para el Servicio Externo "A".
@@ -21,7 +23,7 @@ class AdapterExternalServiceA implements ProductListProvider
 
     /**
      * Simplemente delega la llamada al servicio original.
-     * @return Product[]
+     * @return \App\Core\Product[]
      */
     public function getProducts(): array
     {

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Product.php';
+namespace App\Core;
 
 /**
  * 🎯 EL "TARGET" (OBJETIVO) DEL PATRÓN ADAPTER

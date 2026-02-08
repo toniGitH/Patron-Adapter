@@ -1,8 +1,10 @@
 <?php
 
-require_once 'ProductListProvider.php';
-require_once 'ExternalServiceB.php';
-require_once 'Product.php';
+namespace App\Adapters;
+
+use App\Core\ProductListProvider;
+use App\Core\Product;
+use ExternalB\ExternalServiceB;
 
 /**
  * Adaptador para el servicio ExternalServiceB.

@@ -1,7 +1,6 @@
 <?php
 
-require_once 'Product.php';
-require_once 'ProductListProvider.php';
+namespace App\Core;
 
 /**
  * Clase InventoryApp.

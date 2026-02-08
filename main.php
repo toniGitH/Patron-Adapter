@@ -1,11 +1,13 @@
 <?php
 
-require_once 'InventoryApp.php';
-require_once 'InternalProductService.php';
-require_once 'AdapterExternalServiceA.php';
-require_once 'AdapterExternalServiceB.php';
-require_once 'ExternalServiceB.php';
-require_once 'ExternalServiceA.php';
+require_once __DIR__ . '/vendor/autoload.php';
+
+use App\Core\InventoryApp;
+use App\Core\InternalProductService;
+use App\Adapters\AdapterExternalServiceA;
+use App\Adapters\AdapterExternalServiceB;
+use ExternalA\ExternalServiceA;
+use ExternalB\ExternalServiceB;
 
 // === INICIALIZACIÓN DE LA APLICACIÓN === //
 $app = new InventoryApp();

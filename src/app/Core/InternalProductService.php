@@ -1,7 +1,6 @@
 <?php
 
-require_once 'ProductListProvider.php';
-require_once 'Product.php';
+namespace App\Core;
 
 /**
  * Servicio interno de la propia aplicación.

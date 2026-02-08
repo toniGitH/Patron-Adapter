@@ -1,6 +1,8 @@
 <?php
 
-require_once 'Product.php';
+namespace ExternalA;
+
+use App\Core\Product;
 
 /**
  * Servicio Externo "A": Código INVARIABLE de terceros.

@@ -1,5 +1,7 @@
 <?php
 
+namespace ExternalB;
+
 /**
  * Servicio Externo "B": Código INVARIABLE de terceros.
  * Formato de datos incompatible (array asociativo).
