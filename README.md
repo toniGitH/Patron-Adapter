@@ -159,6 +159,7 @@ En el caso de los servicios externos, le pasamos la instancia del adaptador corr
 <br>
 
 > **🚨 DETALLE IMPORTANTE**
+>
 > Dentro de nuestra aplicación, en la clase **`InventoryApp`**, el método **`getInventoryReport()`**, que es el "corazón" de la aplicación y que realiza todo el trabajo una vez que dispone de la lista de productos, espera como parámetro una instancia de la clase **`ProductListProvider`**, es decir, de la **`Interface Target`**, o mejor dicho, espera una instancia de cualquier clase que la implemente, ya sea de la clase **`InternalProductService`** o de cualquiera de los adaptadores que se creen para los servicios externos (**`AdapterExternalServiceA`** o **`AdapterExternalServiceB`**).
 
 ### 👉🏼 Identificación de los principales archivos del ejemplo
