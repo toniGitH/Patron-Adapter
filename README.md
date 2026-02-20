@@ -189,13 +189,13 @@ En el caso de los servicios externos, le pasamos la instancia del adaptador corr
 
 #### ➡️ Flujo de ejecución
 
-Ubicado en la raíz del proyecto: `main.php`:
+Ubicado en la raíz del proyecto: `main.php`.
 
 #### 🎞️ Visualización de resultados
 
 Interfaz visual para comparar los resultados.
 
-Ubicado en la raíz del proyecto: `index.php` y `styles.css`: 
+Ubicado en la raíz del proyecto: `index.php` y `styles.css`.
 
 <br>
 
